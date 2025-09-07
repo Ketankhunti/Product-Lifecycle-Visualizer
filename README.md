@@ -10,6 +10,9 @@ Back‑end: Rust (Axum) + Gemini API (text + image)
 
 ---
 > Browser Recommendation: For the most accurate card alignment and visual effects, use Google Chrome. Microsoft Edge may currently show slight horizontal misalignment of lifecycle cards; a cross‑browser layout refinement is planned.
+>
+---
+> This project is created in private repositiory. And for demo purpose only pushed into public repo. That's why you may see single final commit message.
 
 ---
 ## 1. Quick Start (Both Services)
