@@ -1,0 +1,111 @@
+# Environment variables for local development
+.env
+.env.local
+.env.*.local
+
+# Rust build artifacts
+/target/
+**/*.rs.bk
+Cargo.lock
+
+# Frontend (Next.js / Node.js)
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/dist/
+frontend/.nuxt/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/.env
+frontend/.env.local
+frontend/.env.development.local
+frontend/.env.test.local
+frontend/.env.production.local
+
+# npm/yarn/pnpm logs and files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.pnpm-debug.log*
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# Logs
+*.log
+logs/
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Coverage directory used by tools like istanbul
+coverage/
+*.lcov
+
+# Dependency directories
+node_modules/
+
+# Optional npm cache directory
+.npm
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env.test
+
+# Temporary files
+*.tmp
+*.temp
+
+# Generated files
+dist/
+build/
+public/build/
+
+# API keys and sensitive files
+api_keys.txt
+secrets.json
+*.key
+*.pem
+
+# Test files and artifacts
+test-results/
+playwright-report/
+test-results.xml
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+
+# Cache files
+.cache/
+.pytest_cache/
+__pycache__/
+*.pyc
+*.pyo
