@@ -13,7 +13,8 @@ Back‑end: Rust (Axum) + Gemini API (text + image)
 >
 ---
 > This project is created in private repositiory. And for demo purpose only pushed into public repo. That's why you may see single final commit message.
-
+---
+> If you want to run it, please create .env file and set GEMINI_API_KEY to your api key.
 ---
 ## 1. Quick Start (Both Services)
 ### Prerequisites
